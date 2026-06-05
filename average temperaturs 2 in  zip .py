@@ -13,6 +13,6 @@ average_temp=sum(sorted_temp)/len(sorted_temp)
 print("Report of temperature of this week : ")
 
 for day,temp in zip(days,temps):
-    print(f"{day} : {temp}")
+    print(f"\t{day:<10} : \t{temp}")
 
 print(f"The average of temperature of this week is  {average_temp:.2f}")
